@@ -8,5 +8,8 @@ public class NutritionFacts {
     private final int sodium = 0;
     private final int carbohydrate = 0;
 
+    public NutritionFacts() {
+    }
+
 
 }
