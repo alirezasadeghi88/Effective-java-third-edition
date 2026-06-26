@@ -13,9 +13,13 @@ public class NutritionFacts {
         this.servings = servings;
     }
 
-    public NutritionFacts(int servingSize, int servings, int calories) {
+    public NutritionFacts(int servingSize, int servings, int calories,
+                          int fat) {
         this.servingSize = servingSize;
         this.servings = servings;
         this.calories = calories;
+        this.fat = fat;
     }
+
+
 }
