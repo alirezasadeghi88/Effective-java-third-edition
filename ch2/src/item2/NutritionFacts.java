@@ -12,4 +12,10 @@ public class NutritionFacts {
         this.servingSize = servingSize;
         this.servings = servings;
     }
+
+    public NutritionFacts(int servingSize, int servings, int calories) {
+        this.servingSize = servingSize;
+        this.servings = servings;
+        this.calories = calories;
+    }
 }
