@@ -20,4 +20,6 @@ public class NutritionFacts2 {
     { calories = val; }
     public void setFat(int val)
     { fat = val; }
+    public void setSodium(int val)
+    { sodium = val; }
 }
