@@ -8,5 +8,10 @@ public class NutritionFacts2 {
     private int sodium = 0;
     private int carbohydrate = 0;
 
-    public NutritionFacts2() { }
+    public NutritionFacts2() {
+
+    }
+
+    public void setServingSize(int val)
+    { servingSize = val; }
 }
