@@ -16,4 +16,7 @@ public class NutritionFacts2 {
     { servingSize = val; }
     public void setServings(int val)
     { servings = val; }
+    public void setCalories(int val)
+    { calories = val; }
+
 }
